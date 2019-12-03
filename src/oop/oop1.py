@@ -20,25 +20,25 @@
 
 # This is the base class
 class Vehicle:
-    def __init__(self):
+    pass
 
 class GroundVehicle(Vehicle):
-    super().__init__(self):
+    pass
 
 class FlightVehicle(Vehicle):
-    super().__init__(self):
+    pass
 
 class Airplane(FlightVehicle):
-    super().__init__(self)
+    pass
 
 class Starship(FlightVehicle):
-    super().__init__(self)
+    pass
 
 class Car(GroundVehicle):
-    super().__init__(self):
+    pass
 
 class Motorcycle(GroundVehicle):
-    super().__init__(self):
+    pass
 
 
 
